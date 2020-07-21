@@ -7,10 +7,13 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { GuestCardComponent } from './guest-card/guest-card.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GuestCardComponent
   ],
   imports: [
     FormsModule,
